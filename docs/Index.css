@@ -9,3 +9,7 @@ h1, h2, h3, p {
 footer {
   background-color: gray;
 }
+
+nav {
+  background-color: rgb(56, 56, 56);
+}
