@@ -1,0 +1,43 @@
+footer {
+    background-color: gray;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+  
+nav {
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  width: 100%;
+  position: relative;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a, .nav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: black;
+}
