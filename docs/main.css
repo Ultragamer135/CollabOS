@@ -5,3 +5,74 @@ body {
 h1, h2, h3, p {
     text-align: center;
 }
+
+.ul {
+  text-align: left; 
+  display: table; 
+  margin: 0 auto;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  margin:0 auto;
+  display: block;
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.popup {
+  display: none; /* invisible by default */
+  position: fixed; /* stay in 1 place */
+  z-index: 1; /* on top layer */
+  padding-top: 100px; /* location for the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* full THICKNESS... is it just me, or is this popup looking kinda THICK... i watch to much youtube -_-... why are you still reading this?... you have other things to do... oh, so you say you DONT have other things to do... please, just stop reading this, go be a member of society... there is no reason for you to still be reading this, y'know... please, im tired of typing all of this, so just leave so i don't have to type more... either way, reading this gives you no benefit... i should be eating lunch, i haven't even had breakfast yet and its already 2:38... bye...                                                                                                                                                                                          Fine you win. you got to the end of this comment, now leave!*/
+  height: 100%; /* full hight */
+  overflow: auto; /* turns on scroll if needed */
+  background-color: rgb(0,0,0); /* black is the fallback color (hey, that rhymed!) */
+  background-color: rgba(0,0,0,0.4); /* black except its not black because its slightly clear. */
+}
+
+/* popup Content */
+.popup-content {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* close button */
+.close {
+  color: #aaaaaa; /* AAAAAA theres a monster under my bed! */
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
