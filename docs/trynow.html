@@ -35,7 +35,7 @@
         </p>
         <button class="button" type="button" autofocus id="openPopup"><span>Latest version</span></button>
         <h3>OR</h3>
-        <button class="button" type="button" id="openVersions"><span>Open version list</span></button>
+        <button class="button" type="button" onclick="toggleshowhide()"><span>Toggle version list</span></button>
         <div id="popup" class="popup">
 
             <!-- popup content -->
@@ -46,6 +46,13 @@
           
         </div>
         <script src="scripts/popup.js"></script>
+
+        <div id="showhideDiv">
+            <ul class="ul">
+                <li>Version A1.1</li>
+            </ul>
+        </div>
+        <script src="scripts/showhide.js"></script>
 
     <footer>
         <p>
