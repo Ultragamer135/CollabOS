@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,400,600,800|Roboto:200,400,600,800");
+* {
+font-family: Poppins;
+}
+p {
+font-family: Roboto;
+}
+
 body {
     background-color: white;
   }
