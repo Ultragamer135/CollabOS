@@ -6,5 +6,5 @@ Back in mid- to late-2019, Scratcher `elinero` created a forum thread on the Scr
 
 Using some extremely complex coding, several active contributors are currently making cloud systems and encrypted chatrooms, things that break the boundaries of what was meant to be an introductory coding language for primary school children.
 
-The github page for the CollabOS project on scratch.
-Check out the studio at https://scratch.mit.edu/studios/25917371/projects/ and the forum at https://scratch.mit.edu/discuss/topic/389988/
+This is the github page for the CollabOS project on scratch.
+Check out the studio at https://scratch.mit.edu/studios/25917371/projects/ , the forum at https://scratch.mit.edu/discuss/topic/389988/ , and the website at https://usernamenotavalible.github.io/CollabOS/index.html
