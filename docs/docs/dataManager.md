@@ -19,7 +19,7 @@ The comunicate slot is used to ask things to other process, ``! echo hi`` or ``?
 because you can execute your own prompt commands with the ``! `` and ask to an X app with ``? X`` (X being the app name). 
 *note: once you are done setting up your request, broadcast the ``comunicate`` message and wait until it's done*
 #### The response slot
-Once an app has received your task from the comunicate slot it will reply to this slot.*some apps don't reply, wich throws a ``¤200`` [error code](https://github.com/wamuM/docs/blob/master/Scratch/error_codes.md)*
+Once an app has received your task from the comunicate slot it will reply to this slot. *Some apps don't reply, witch throws a ``¤200`` [error code](https://github.com/wamuM/docs/blob/master/Scratch/error_codes.md)*
 #### Receive a task
 If any app wants to speak with yours they will use the manager as proxy, the manager will then fill your ask slot with the task. 
 ```js
